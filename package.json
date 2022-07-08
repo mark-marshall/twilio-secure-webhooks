@@ -1,7 +1,7 @@
 {
-  "name": "twilio-flex-twitter",
+  "name": "twilio-secure-webhooks",
   "version": "1.0",
-  "description": "Middleware between Twilio Flex and Twitter Direct Messaging",
+  "description": "Validating Twilio X Signature Header",
   "private": false,
   "dependencies": {
     "base-64": "^1.0.0",
