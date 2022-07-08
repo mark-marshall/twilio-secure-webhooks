@@ -12,8 +12,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // ================== Functions ==================
 const validateRequest = async(authToken, twilioSignature, url, params) => {
-    const validRequest = await twilio.validateRequest(authToken, twilioSignature, url, params)
-    console.log(validRequest)
+  const validRequest = await twilio.validateRequest(authToken, twilioSignature, url, params)
+  console.log(validRequest)
 }
 
 // ================== Endpoints ==================
